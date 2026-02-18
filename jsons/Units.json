@@ -18,7 +18,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 0,
-		"uniques": ["Can transform to [Pishacha Tiger]","Can transform to [Makara]","Unbuildable","[-1] Sight"]
+		"uniques": ["Can transform to [Pishacha Tiger]","Can transform to [Makara]","Unbuildable","Invisible to non-adjacent units","[-1] Sight"]
 	},
 	{
 		"name": "Pishacha Tiger",
@@ -37,7 +37,7 @@
 		"movement": 4,
 		"strength": 20,
 		"cost": 0,
-		"uniques": ["[-33]% Strength <vs cities>","Unbuildable","Never appears as a Barbarian unit"]
+		"uniques": ["[-33]% Strength <vs cities>","May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>","Unbuildable","Never appears as a Barbarian unit"]
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Ironclad",
 		"attackSound": "elephant"
