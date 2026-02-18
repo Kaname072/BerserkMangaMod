@@ -7,49 +7,49 @@ repeat: none
 NationIcons/Kushan
   rotate: false
   xy: 0, 0
-  size: 100, 100
+  size: 200, 200
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Man-Made Behelit
   rotate: false
   xy: 0, 200
-  size: 100, 100
+  size: 200, 200
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Daka
   rotate: false
   xy: 200, 0
-  size: 100, 100
+  size: 200, 200
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Kushan Scout
   rotate: false
   xy: 400, 0
-  size: 100, 100
+  size: 200, 200
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Priest
   rotate: false
   xy: 600, 0
-  size: 100, 100
+  size: 200, 200
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Pishacha
   rotate: false
   xy: 200, 200
-  size: 100, 100
+  size: 200, 200
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Makara
   rotate: false
   xy: 400, 200
-  size: 100, 100
+  size: 200, 200
   orig: 100, 100
   offset: 0, 0
   index: -1
