@@ -24,7 +24,7 @@
         "innerColor": [0,220,77],
 
         "uniqueName": "Shiva",
-        "uniques": ["Comment [Have a extra units]","\"Borrows\" city names from other civilizations in the game"],
+        "uniques": ["Comment [Have a extra units]","Free [Priest] appears <upon constructing [Temple]>","\"Borrows\" city names from other civilizations in the game"],
         
         "cities": ["Ganishka Palace"]
 	}
