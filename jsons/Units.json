@@ -18,16 +18,15 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 0,
-		"requiredTech": "Theology",
 		"uniques": ["Can transform to [Pishaca]","Can transform to [Makara]","Unbuildable","[-1] Sight"]
 	},
 	{
-		"name": "Pishaca",
+		"name": "Pishacha",
 		"unitType": "Mounted",
 		"movement": 3,
 		"strength": 18,
 		"cost": 0,
-		"uniques": ["[+33]% vs [non-[Mounted]] units","Unbuildable","Never appears as a Barbarian unit"]
+		"uniques": ["[+33]% Strength <vs [non-[Mounted]] units>","Unbuildable","Never appears as a Barbarian unit"]
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"attackSound": "pishacha"
@@ -38,7 +37,7 @@
 		"movement": 4,
 		"strength": 20,
 		"cost": 0,
-		"uniques": ["[-33]% vs cities","Unbuildable","Never appears as a Barbarian unit"]
+		"uniques": ["[-33]% Strength <vs cities>","Unbuildable","Never appears as a Barbarian unit"]
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Ironclad",
 		"attackSound": "elephant"
