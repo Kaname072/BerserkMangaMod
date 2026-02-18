@@ -1,17 +1,46 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
+		"name": "Kushan Scout",
+		"replaces": "Scout",
+		"uniqueTo": "Kushan",
+		"unitType": "Scout",
 		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
+		"strength": 8,
+		"cost": 25,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["May upgrade to [Archer] through ruins-like effects"],
+		"promotions": ["Ignore terrain cost","Survivalism I"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Priest",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost" 0,
+		"requiredTech": "Theology",
+		"uniques": ["Can transform to [Pishaca]","Can transform to [Makara]","Unbuildable","[-1] Sight"]
+	},
+	{
+		"name": "Pishaca",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 18,
+		"cost": 0,
+		"uniques": ["[+33]% vs [non-[Mounted]] units","Unbuildable","Never appears as a Barbarian unit"]
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"attackSound": "pishacha"
+	},
+	{
+		"name": "Makara",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 20,
+		"cost": 0,
+		"uniques": ["[-33]% vs cities","Unbuildable","Never appears as a Barbarian unit"]
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Ironclad",
+		"attackSound": "elephant"
 	}
 ]
