@@ -55,7 +55,7 @@ UnitIcons/Makara
   index: -1
 LeaderIcons/Ganishka
   rotate: false
-  xy: 760, 0
+  xy: 0, 760
   size: 225, 240
   orig: 100, 100
   offset: 0, 0
