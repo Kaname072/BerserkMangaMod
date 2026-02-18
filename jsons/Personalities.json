@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Ganishka",
+    "production": 9,
+    "food": 7,
+    "gold": 10,
+    "science": 7,
+    "culture": 6,
+    "happiness": 5,
+    "faith": 6,
+    "military": 10,
+    "aggressive": 99,
+    "declareWar": 99,
+    "commerce": 2,
+    "diplomacy": 1,
+    "loyal": 3,
+    "expansion": 10,
+    "priorities": {
+      "Tradition": 4,
+      "Liberty": 3,
+      "Honor": 9,
+      "Commerce": 1,
+      "Patronage": 1,
+      "Piety": 2,
+      "Rationalism": 4,
+      "Freedom": 1,
+      "Autocracy": 8,
+      "Order": 3
+    }
+  }
+]
