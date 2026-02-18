@@ -4,31 +4,59 @@ size: 512, 128
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Breeders
+NationIcons/Kushan
   rotate: false
-  xy: 112, 4
+  xy: 0, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Holodeck
+BuildingIcons/Man-Made Behelit
   rotate: false
-  xy: 220, 4
+  xy: 0, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Aliens
+UnitIcons/Daka
   rotate: false
-  xy: 4, 4
+  xy: 200, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Phasers
+UnitIcons/Kushan Scout
   rotate: false
-  xy: 328, 4
+  xy: 400, 0
   size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Priest
+  rotate: false
+  xy: 600, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Pishacha
+  rotate: false
+  xy: 200, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Makara
+  rotate: false
+  xy: 400, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+LeaderIcons/Ganishka
+  rotate: false
+  xy: 760, 0
+  size: 225, 240
   orig: 100, 100
   offset: 0, 0
   index: -1
