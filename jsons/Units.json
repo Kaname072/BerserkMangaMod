@@ -17,7 +17,7 @@
 		"name": "Priest",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost" 0,
+		"cost": 0,
 		"requiredTech": "Theology",
 		"uniques": ["Can transform to [Pishaca]","Can transform to [Makara]","Unbuildable","[-1] Sight"]
 	},
