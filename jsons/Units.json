@@ -16,9 +16,9 @@
 	{
 		"name": "Priest",
 		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 0,
-		"uniques": ["Can transform to [Pishacha Tiger]","Can transform to [Makara]","Unbuildable","Invisible to non-adjacent units","[-1] Sight"]
+		"movement": 1,
+		"hurryCostModifier": 15,
+		"uniques": ["Can transform to [Pishacha Tiger]","Can transform to [Makara]","Only available <if [Man-Made Behelit] is constructed>","Invisible to non-adjacent units","[-1] Sight"]
 	},
 	{
 		"name": "Pishacha Tiger",
@@ -26,7 +26,7 @@
 		"movement": 3,
 		"strength": 18,
 		"cost": 0,
-		"uniques": ["[+33]% Strength <vs [non-[Mounted]] units>","Unbuildable","Never appears as a Barbarian unit"]
+		"uniques": ["Heals [25] damage if it kills a unit","[+33]% Strength <vs [non-[Mounted]] units>","[-15]% Strength <vs cities> <when attacking>","Unbuildable","Never appears as a Barbarian unit"]
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"attackSound": "pishacha"
@@ -35,11 +35,23 @@
 		"name": "Makara",
 		"unitType": "Melee Water",
 		"movement": 4,
-		"strength": 20,
+		"strength": 26,
 		"cost": 0,
 		"uniques": ["[-33]% Strength <vs cities>","May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>","Unbuildable","Never appears as a Barbarian unit"]
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Ironclad",
 		"attackSound": "elephant"
+	},
+	{
+		"name": "Daka",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 18,
+		"cost": 120,
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","Ignores Zone of Control","[-1] population [in this city]","Only available <if [Man-Made Behelit] is constructed>"],
+		"promotions": ["Great Generals II","Quick Study"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
 	}
 ]
