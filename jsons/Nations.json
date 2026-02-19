@@ -25,7 +25,7 @@
 		"favoredReligion": "Hinduism", ///because of their similarity
 		
 		"uniqueName": "Shiva",
-        "uniques": ["Gain a free [Man-Made Behelit] [in capital] <upon discovering [Theology] technology>",
+        "uniques": ["Gain a free [Man-Made Behelit] [in capital]",
 			"No damage penalty for wounded units <for [Military] units>",
 			"[-50]% maintenance costs <for [Military] units>",
 			"[-50]% unhappiness from the number of cities",
