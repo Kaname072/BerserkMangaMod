@@ -24,7 +24,11 @@
         "innerColor": [0,220,77],
 
         "uniqueName": "Shiva",
-        "uniques": ["No damage penalty for wounded units <for [Land] units>","Comment [Have a extra units when [Man-Made Behelit] is constructed]","Each city founded increases culture cost of policies [25]% less than normal","\"Borrows\" city names from other civilizations in the game"],
+        "uniques": ["No damage penalty for wounded units <for [Military] units>",
+			"[-50]% maintenance costs <for [Military] units>",
+			"[-33]% unhappiness from the number of cities",
+			"Each city founded increases culture cost of policies [25]% less than normal",
+			"\"Borrows\" city names from other civilizations in the game"],
         
         "cities": ["Ganishka Palace"]
 	}
