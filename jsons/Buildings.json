@@ -1,11 +1,10 @@
 [
 	{
 		"name": "Man-Made Behelit",
-		"uniqueTo": "Kushan",
 		"isNationalWonder": true,
-		"maintenance": 5,
-		"cost": 200,
-		"uniques": ["Comment [Unlock [Daka] units]","Comment [Unlock [Priest] units]"],
+		"maintenance": 2,
+		"cost": 160,
+		"uniques": ["[+20]% Production when constructing [Daka] units [in this cities]","Comment [Unlock [Daka] units]","Comment [Unlock [Priest] units]","Only available <for [Kushan] Civilizations>"],
 		"requiredTech": "Theology"
 	}
 ]
