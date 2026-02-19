@@ -1,9 +1,8 @@
 [
 	{
 		"name": "Man-Made Behelit",
-		"isNationalWonder": true,
 		"faith": 2
 		"cost": 0,
-		"uniques": ["[+20]% Production when constructing [Daka] units [in this cities]","Comment [Unlock [Daka] units]","Comment [Unlock [Priest] units]","Unbuildable"]
+		"uniques": ["[+15]% Production when constructing [Daka] units [in this city]","Comment [Unlock [Daka] units]","Comment [Unlock [Priest] units]","Unbuildable"]
 	}
 ]
