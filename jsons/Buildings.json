@@ -1,8 +1,0 @@
-[
-	{
-		"name": "Man-Made Behelit",
-		"faith": 2
-		"cost": 0,
-		"uniques": ["[+15]% Production when constructing [Daka] units [in this city]","Comment [Unlock [Daka] units]","Comment [Unlock [Priest] units]","Unbuildable"]
-	}
-]
