@@ -11,7 +11,8 @@
 		"startIntroPart2": ""
 
         "declaringWar": "My army is unstoppable! Your days are numbered!",
-        "attacked": "UNFORGIVEN! UNFORGIVEN! UNFORGIVEN!",
+		"attacked": "Just try!",
+        "denounced": "UNFORGIVEN! UNFORGIVEN! UNFORGIVEN!",
         "defeated": "That light... I saw it... I've seen that light before...",
         "introduction": "Huh?",
 
@@ -24,12 +25,10 @@
         "innerColor": [0,220,77],
 		"favoredReligion": "Hinduism", ///because of their similarity
 		
-		"uniqueName": "Shiva",
-        "uniques": ["Gain a free [Man-Made Behelit] [in capital]",
-			"No damage penalty for wounded units <for [Military] units>",
+		"uniqueName": "Man-Made Behelit",
+        "uniques": ["No damage penalty for wounded units <for [Military] units>",
 			"[-50]% maintenance costs <for [Military] units>",
 			"[-50]% unhappiness from the number of cities",
-			"Each city founded increases culture cost of policies [50]% less than normal",
 			"\"Borrows\" city names from other civilizations in the game"],
         
         "cities": ["Ganishka Palace"]
