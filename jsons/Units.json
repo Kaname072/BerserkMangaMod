@@ -14,32 +14,32 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Priest",
-		"unitType": "Civilian",
-		"movement": 1,
-		"hurryCostModifier": 15,
-		"uniques": ["Can transform to [Pishacha Tiger]","Can transform to [Makara]","Only available <if [Man-Made Behelit] is constructed>","Invisible to non-adjacent units","[-1] Sight"]
-	},
-	{
 		"name": "Pishacha Tiger",
-		"unitType": "Mounted",
-		"movement": 3,
-		"strength": 18,
-		"cost": 0,
-		"uniques": ["Heals [25] damage if it kills a unit","[+33]% Strength <vs [non-[Mounted]] units>","[-15]% Strength <vs cities> <when attacking>","Unbuildable","Never appears as a Barbarian unit"]
-		"obsoleteTech": "Military Science",
-		"upgradesTo": "Cavalry",
+		"uniqueTo": "Kushan",
+		"replaces": "Chariot Archer",
+		"unitType": "Archery",
+		"movement": 4,
+		"strength": 13,
+		"cost": 56,
+		"requiredTech": "Trapping",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"promotions": ["[Pishacha Tiger] ability"],
 		"attackSound": "pishacha"
 	},
 	{
 		"name": "Makara",
+		"uniqueTo": "Kushan",
+		"replaces": "Trireme",
 		"unitType": "Melee Water",
 		"movement": 4,
-		"strength": 26,
-		"cost": 0,
-		"uniques": ["[-33]% Strength <vs cities>","May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>","Unbuildable","Never appears as a Barbarian unit"]
-		"obsoleteTech": "Combustion",
-		"upgradesTo": "Ironclad",
+		"strength": 16,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"uniques": ["[+50]% Strength <vs [Land] units>"],
+		"promotions": ["Landing Party"],
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
 		"attackSound": "elephant"
 	},
 	{
@@ -51,9 +51,9 @@
 		"strength": 18,
 		"cost": 90,
 		"uniques": ["[+50]% Strength <vs [Mounted] units>","Ignores Zone of Control","Excess Food converted to Production when under construction","Only available <if [Man-Made Behelit] is constructed>"],
-		"promotions": ["Great Generals II","Quick Study"],
-		"upgradesTo": "Lancer",
-		"obsoleteTech": "Metallurgy",
+		"promotions": ["Great Generals II","Quick Study","Formation I"],
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
 	}
 ]
